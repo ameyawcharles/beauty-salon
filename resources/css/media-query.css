@@ -1,0 +1,52 @@
+/* Big tablets to smaller laptops screens */
+@media only screen(max-width:1200px) {
+	html,
+    body {
+       font-size:14px;
+   }
+
+   .header {
+      margin-bottom: 10px;
+   }
+
+   .about-para {
+	   margin-bottom:20px;
+   }
+
+   .service-para {
+      margin-bottom: 20px;
+   }
+
+   .faq-para {
+      margin-bottom: 20px;
+      padding: 10px;
+   }
+
+   .section-heading,
+   .service-heading,
+   .gallery-heading,
+   .blog-heading,
+   .faq-heading,
+   .booking-heading,
+   .contact-heading
+    {
+	   margin-top: 90px;
+   }
+
+
+}
+
+/* Smaller tablets to larger tablets screens */
+@media only screen(max-width:1023px) {
+
+}
+
+/* Larger phones to smaller screens */
+@media only screen(max-width:768px) {
+
+}
+
+/* Small to larger mobile phones screens */
+@media only screen(max-width:479px) {
+
+}
